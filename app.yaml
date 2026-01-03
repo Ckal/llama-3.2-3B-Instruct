@@ -1,0 +1,18 @@
+name: llama-3.2-3B-Instruct
+type: gradio-space
+sdk: gradio
+
+metadata:
+  space_id: Chris4K/llama-3.2-3B-Instruct
+  original_url: https://huggingface.co/spaces/Chris4K/llama-3.2-3B-Instruct
+
+deploy:
+  targets:
+    - public-repo
+    - huggingface
+
+build:
+  command: bash build.sh
+
+test:
+  command: echo "Tests not yet implemented"
