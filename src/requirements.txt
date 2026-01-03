@@ -3,12 +3,12 @@
 accelerate==1.2.1
     # via llama-3-2-3b-instruct (pyproject.toml)
 aiofiles==23.2.1
-    # via gradio>=4.0.0
+    # via gradio>=4.44.0
 annotated-types==0.7.0
     # via pydantic
 anyio==4.7.0
     # via
-    #   gradio>=4.0.0
+    #   gradio>=4.44.0
     #   httpx
     #   starlette
 certifi==2024.12.14
@@ -25,9 +25,9 @@ click==8.1.8
 exceptiongroup==1.2.2
     # via anyio
 fastapi==0.115.6
-    # via gradio>=4.0.0
+    # via gradio>=4.44.0
 ffmpy==0.5.0
-    # via gradio>=4.0.0
+    # via gradio>=4.44.0
 filelock==3.16.1
     # via
     #   huggingface-hub
@@ -36,15 +36,15 @@ filelock==3.16.1
     #   triton
 fsspec==2024.12.0
     # via
-    #   gradio>=4.0.0-client
+    #   gradio>=4.44.0-client
     #   huggingface-hub
     #   torch
-gradio>=4.0.0
+gradio>=4.44.0
     # via
     #   llama-3-2-3b-instruct (pyproject.toml)
     #   spaces
-gradio>=4.0.0-client==1.5.2
-    # via gradio>=4.0.0
+gradio>=4.44.0-client==1.5.2
+    # via gradio>=4.44.0
 h11==0.14.0
     # via
     #   httpcore
@@ -55,15 +55,15 @@ httpcore==1.0.7
     # via httpx
 httpx==0.28.1
     # via
-    #   gradio>=4.0.0
-    #   gradio>=4.0.0-client
+    #   gradio>=4.44.0
+    #   gradio>=4.44.0-client
     #   safehttpx
     #   spaces
 huggingface-hub==0.27.0
     # via
     #   accelerate
-    #   gradio>=4.0.0
-    #   gradio>=4.0.0-client
+    #   gradio>=4.44.0
+    #   gradio>=4.44.0-client
     #   tokenizers
     #   transformers>=4.35.0
 idna==3.10
@@ -73,13 +73,13 @@ idna==3.10
     #   requests
 jinja2==3.1.5
     # via
-    #   gradio>=4.0.0
+    #   gradio>=4.44.0
     #   torch
 markdown-it-py==3.0.0
     # via rich
 markupsafe==2.1.5
     # via
-    #   gradio>=4.0.0
+    #   gradio>=4.44.0
     #   jinja2
 mdurl==0.1.2
     # via markdown-it-py
@@ -90,7 +90,7 @@ networkx==3.4.2
 numpy==2.2.1
     # via
     #   accelerate
-    #   gradio>=4.0.0
+    #   gradio>=4.44.0
     #   pandas
     #   transformers>=4.35.0
 nvidia-cublas-cu12==12.1.3.1
@@ -125,19 +125,19 @@ nvidia-nvjitlink-cu12==12.6.85
 nvidia-nvtx-cu12==12.1.105
     # via torch
 orjson==3.10.13
-    # via gradio>=4.0.0
+    # via gradio>=4.44.0
 packaging==24.2
     # via
     #   accelerate
-    #   gradio>=4.0.0
-    #   gradio>=4.0.0-client
+    #   gradio>=4.44.0
+    #   gradio>=4.44.0-client
     #   huggingface-hub
     #   spaces
     #   transformers>=4.35.0
 pandas==2.2.3
-    # via gradio>=4.0.0
+    # via gradio>=4.44.0
 pillow==11.1.0
-    # via gradio>=4.0.0
+    # via gradio>=4.44.0
 psutil==5.9.8
     # via
     #   accelerate
@@ -145,24 +145,24 @@ psutil==5.9.8
 pydantic==2.10.4
     # via
     #   fastapi
-    #   gradio>=4.0.0
+    #   gradio>=4.44.0
     #   spaces
 pydantic-core==2.27.2
     # via pydantic
 pydub==0.25.1
-    # via gradio>=4.0.0
+    # via gradio>=4.44.0
 pygments==2.18.0
     # via rich
 python-dateutil==2.9.0.post0
     # via pandas
 python-multipart==0.0.20
-    # via gradio>=4.0.0
+    # via gradio>=4.44.0
 pytz==2024.2
     # via pandas
 pyyaml==6.0.2
     # via
     #   accelerate
-    #   gradio>=4.0.0
+    #   gradio>=4.44.0
     #   huggingface-hub
     #   transformers>=4.35.0
 regex==2024.11.6
@@ -175,15 +175,15 @@ requests==2.32.3
 rich==13.9.4
     # via typer
 ruff==0.8.5
-    # via gradio>=4.0.0
+    # via gradio>=4.44.0
 safehttpx==0.1.6
-    # via gradio>=4.0.0
+    # via gradio>=4.44.0
 safetensors==0.5.0
     # via
     #   accelerate
     #   transformers>=4.35.0
 semantic-version==2.10.0
-    # via gradio>=4.0.0
+    # via gradio>=4.44.0
 shellingham==1.5.4
     # via typer
 six==1.17.0
@@ -195,13 +195,13 @@ spaces==0.31.1
 starlette==0.41.3
     # via
     #   fastapi
-    #   gradio>=4.0.0
+    #   gradio>=4.44.0
 sympy==1.13.3
     # via torch
 tokenizers==0.21.0
     # via transformers>=4.35.0
 tomlkit==0.13.2
-    # via gradio>=4.0.0
+    # via gradio>=4.44.0
 torch==2.4.0
     # via
     #   llama-3-2-3b-instruct (pyproject.toml)
@@ -215,13 +215,13 @@ transformers>=4.35.0
 triton==3.0.0
     # via torch
 typer==0.15.1
-    # via gradio>=4.0.0
+    # via gradio>=4.44.0
 typing-extensions==4.12.2
     # via
     #   anyio
     #   fastapi
-    #   gradio>=4.0.0
-    #   gradio>=4.0.0-client
+    #   gradio>=4.44.0
+    #   gradio>=4.44.0-client
     #   huggingface-hub
     #   pydantic
     #   pydantic-core
@@ -235,6 +235,6 @@ tzdata==2024.2
 urllib3==2.3.0
     # via requests
 uvicorn==0.34.0
-    # via gradio>=4.0.0
+    # via gradio>=4.44.0
 websockets==14.1
-    # via gradio>=4.0.0-client
+    # via gradio>=4.44.0-client
